@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "load": "node load.js",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node index.js",
+    "watch": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.2",
